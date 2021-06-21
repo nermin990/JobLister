@@ -1,0 +1,46 @@
+.navigation-holder{
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    height: 80px;
+    margin-bottom: 30px;
+}
+
+.navigation{
+    flex-grow: 1;
+    display: inline;
+    text-align: right;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.navigation-items{
+    display: inline;
+    list-style-type: none;
+    text-align: center;
+    margin: 5px;
+}
+
+.navigation-items > a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.project-name{
+    flex-grow: 1;
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 10px;
+    color: lightgray;
+    margin-bottom: 18px;
+}
+
+.box-holder{
+    text-align: center;
+    padding: 15px;
+    background: lightgray;
+    margin-bottom: 20px;
+}
+
+#category_id{
+    margin-top: 25px;
+}
